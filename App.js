@@ -15,12 +15,14 @@ import { Navigation } from "./src/infrastructure/navigation";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 const firebaseConfig = {
-  apiKey: "<fill in your own>",
-  authDomain: "<fill in your own>",
-  projectId: "<fill in your own>",
-  storageBucket: "<fill in your own>",
-  messagingSenderId: "<fill in your own>",
-  appId: "<fill in your own>",
+  apiKey: "AIzaSyBk1Y4FW7rwdu90H0RqWtU4ZwAi3iBjSo8",
+  authDomain: "doctor-92444.firebaseapp.com",
+  projectId: "doctor-92444",
+  databaseURL:
+    "https://doctor-92444-default-rtdb.asia-southeast1.firebasedatabase.app",
+  storageBucket: "doctor-92444.appspot.com",
+  messagingSenderId: "472377567809",
+  appId: "1:472377567809:web:01d86e51e253ef88c8b4c0",
 };
 
 initializeApp(firebaseConfig);
